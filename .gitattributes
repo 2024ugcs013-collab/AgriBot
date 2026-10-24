@@ -1,0 +1,6 @@
+# Enforce Unix LF line endings for Darknet configurations, scripts, and manifests
+*.sh text eol=lf
+*.cfg text eol=lf
+*.data text eol=lf
+*.names text eol=lf
+*.txt text eol=lf

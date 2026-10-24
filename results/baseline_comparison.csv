@@ -1,0 +1,3 @@
+Model,Architecture Type,Test Accuracy,Macro F1-Score,Model Size (MB),Inference Latency,Localization Capability
+AlexeyAB YOLOv4 (Our Implementation),One-stage Object Detector (CSPDarknet53 + PANet),46.05%,15.81%,244.2 MB,~25.0 ms,Yes (Bounding Boxes + Lesion Heatmap)
+DenseNet-121 (Paper Baseline),Deep Classification CNN (Dense Connectivity),100.00%,100.00%,27.1 MB,58.94 ms,No (Image-Level Label Only)

@@ -1,0 +1,5 @@
+classes = 3
+train = /mnt/c/Users/vivek/OneDrive/Desktop/AgriBot/data/train_wsl.txt
+valid = /mnt/c/Users/vivek/OneDrive/Desktop/AgriBot/data/valid_wsl.txt
+names = /mnt/c/Users/vivek/OneDrive/Desktop/AgriBot/data/obj.names
+backup = /mnt/c/Users/vivek/OneDrive/Desktop/AgriBot/weights/backup

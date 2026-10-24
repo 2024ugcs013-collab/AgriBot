@@ -1,0 +1,78 @@
+# ==============================================================================
+# AgriBot - Git Ignore Configuration
+# ==============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Datasets (Images & Labels) - Do not commit dataset images to Git
+data/raw/
+data/processed/
+*.jpg
+*.jpeg
+*.png.bak
+*.JPG
+*.JPEG
+!results/predictions/*
+
+# Generated Machine-Specific Darknet Path Manifests (Dynamic)
+data/train.txt
+data/train_wsl.txt
+data/valid.txt
+data/valid_wsl.txt
+data/test.txt
+data/test_wsl.txt
+
+# Model Weight Binaries (Exceed GitHub 100MB File Limit & Git LFS scope)
+*.weights
+*.conv.*
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+weights/backup/
+weights/*.weights
+weights/*.conv.*
+weights/*.pt
+
+# Compiled C/C++ Binaries & Libraries (Architecture Specific)
+darknet/darknet
+darknet/libdarknet.so
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Heavy Logs and Oversized Visual Debugging Grids (>10MB)
+results/errors.png
+results/annotation_check.png
+results/train.log
+*.log
+
+# OS & IDE Configuration Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
